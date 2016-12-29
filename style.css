@@ -1,0 +1,90 @@
+html {
+	max-width: 100%;
+}
+
+::selection {
+  background: #0D0D0D;
+  color: #D9D9D9;
+}
+
+body {
+	margin-top: 5%;
+	margin-bottom: 0;
+	width: 75%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #F2F2F2;
+	cursor: default;
+}
+
+a:link {
+	color: currentColor;
+	text-decoration: none;
+	cursor: default;
+}
+
+a:visited {
+	color: currentColor;
+	text-decoration: none;
+	cursor: default;
+}
+
+.link {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	border-spacing: 0;
+	text-align: left;
+	color: #0D0D0D;
+	margin: 0;
+	padding: 0;
+	display: block;
+	cursor: default;
+    top: 1%;
+    width: 100%;
+}
+
+.link :hover {
+	text-decoration: underline;
+	cursor: default;
+}
+
+.button {
+	display: inline-block;
+}
+
+.logo {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 75px;
+	font-style: normal;
+	font-variant: normal;
+	border-spacing: 0;
+	text-align: left;
+	color: #0D0D0D;
+	margin: 0;
+	padding: 0;
+	display: block;
+	cursor: default;
+    top: 1%;
+    width: 100%;
+}
+
+.bottom-bar {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	border-spacing: 0;
+	text-align: left;
+	color: #0D0D0D;
+	display: block;
+	cursor: default;
+	float: bottom;
+	position: fixed;
+    bottom: 1%;
+    width: 100%;
+}
