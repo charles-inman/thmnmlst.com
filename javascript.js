@@ -76,15 +76,7 @@ var TextScramble = function () {
 // —————————————————————————————————————————————————— //
 
 var phrases = [
-    'hello world!',
-    'Im "the minimalist"',
-    'Im 16 years old',
-    'Im interested in',
-    'architecture,',
-    'design,',
-    'digital art,',
-    'web design',
-    'and programming',];
+    'hello world!',];
 
 var el = document.querySelector('.text');
 var fx = new TextScramble(el);
@@ -92,7 +84,7 @@ var fx = new TextScramble(el);
 var counter = 0;
 var next = function next() {
     fx.setText(phrases[counter]).then(function () {
-        setTimeout(next, 2000);
+        setTimeout(next, 1500);
     });
     counter = (counter + 1) % phrases.length;
 };
