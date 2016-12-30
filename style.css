@@ -11,7 +11,7 @@ body {
 	margin-top: 5%;
 	margin-bottom: 0;
 	width: 75%;
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-right: 10%;
 	background-color: #F2F2F2;
 	cursor: default;
@@ -41,12 +41,11 @@ a:visited {
 	color: #0D0D0D;
 	margin: 0;
 	padding: 0;
-	display: inline-block;
+	display: block;
 	cursor: default;
 	float: top;
 	position: fixed;
 	top: 2%;
-    width: 100%;
 }
 
 .link :hover {
@@ -72,22 +71,20 @@ a:visited {
 	padding: 0;
 	display: block;
 	cursor: default;
-    width: 100%;
 }
 
 .bottom-bar {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
 	border-spacing: 0;
 	text-align: left;
-	color: #0D0D0D;
+	color: #808080;
 	display: block;
 	cursor: default;
 	float: bottom;
 	position: fixed;
     bottom: 1%;
-    width: 100%;
 }
